@@ -1,0 +1,56 @@
+body {
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+}
+
+.ancho {
+  max-width: 1500px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px black solid;
+}
+h1 {
+color: blue;
+text-align: center;
+}
+h3{
+  color: red;
+  text-align: center;
+}
+a{
+  background-color: yellow;
+  margin: 20px;
+  border: 1px black solid;
+  color: white;
+  font-size: 24px;
+}
+
+.semestres {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  max-width: 50%;
+  margin: 20px auto;
+}
+
+.recuadro {
+  border: 2px solid #007bff;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #f0f8ff;
+  text-align: left;
+}
+
+summary {
+  font-size: 20px;
+  font-weight: bold;
+  color: #007bff;
+  cursor: pointer;
+}
+
+.recuadro ul {
+  padding-left: 25px;
+}
